@@ -5,7 +5,19 @@ noob = Flask(__name__)
 
 @noob.route( '/' )
 def root():
-    return "<h1>this is the main landing page</h1>"
+    header="<html>"
+    footer="</html>"
+    outStr="<h1>this is the main landing page</h1>"
+    outStr+='<br>'
+    outStr+='<a href="https://www.youtube.com/watch?v=SU1v3OFL7uI">'
+    outStr+='rally racing done poorly</a>'    
+    outStr+='<br>'
+    outStr+='<a href="https://www.youtube.com/watch?v=8I7Rs6-jYfQ">'
+    outStr+='rally racing done well</a>'    
+    outStr+='<br>'
+    outStr+='<a href="https://www.youtube.com/watch?v=cN9LCy_gcXw">'
+    outStr+='rally best-of compilation</a>'    
+    return header + outStr + footer
 
 
 #to allow variable URL parts, use inside angle brackets in decorator
