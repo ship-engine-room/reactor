@@ -1,0 +1,19 @@
+/* Clyde "Thluffy" Sinclair's 
+   DEMO CSS STYLESHEET v1
+   each bracketed block specifies styling for target HTML element
+   */
+
+body {
+    background-color: #666666;
+    font-family: Arial, Helvetica, Courier; /* if first absent, try next... */
+}
+
+a {
+    text-decoration: none; /* remove hyperlink underlining */
+    color: #dddddd; /* font color */
+}
+
+h1,h2,h3 {
+    margin: 0;
+}
+

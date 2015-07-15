@@ -1,0 +1,49 @@
+/* Clyde "Thluffy" Sinclair's 
+   DEMO CSS STYLESHEET v4
+   each bracketed block specifies styling for target HTML element
+   # denotes div
+   . denotes class 
+   */
+
+body {
+    background-color: #666666;
+    font-family: Arial, Helvetica, Courier; /* if first absent, try next... */
+}
+
+a {
+    text-decoration: none; /* remove hyperlink underlining */
+    color: #dddddd; /* font color */
+}
+
+h1,h2,h3 {
+    margin: 0;
+}
+
+.navlink { 
+    font-weight: bold;
+    /*font-style: italic;*/
+}         
+
+#container {
+    background-color: #777777;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    background-color: #c0c0c0;
+    color:#ffffff;
+    text-align: center;
+    padding: 3px;
+}
+
+#footer {
+    /* clear:both allows no floating elements on either side 
+       forces footer to move below nav and main*/
+    clear: both;
+    padding: 10px;
+    background-color: #555555;
+    color: #777777;
+    text-align: right;
+}
