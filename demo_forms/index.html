@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- DEMO FILE for forms --> 
+
+<html>
+  <head>
+    <title>HTML forms front-end demo</title>
+  </head>
+
+  <body>
+    <h3>HTML forms</h3>
+
+    <p>This form will run demo_backend.py upon clicking Submit.
+    <p>(It also has more inputs.)
+    <!-- enclose all input widgets in a pair of FORM tags -->
+    <form action="demo_backend.py" method="GET">
+      who: <input type="text" name="txt_who"> <br>
+      what: <input type="text" name="txt_what"> <br>
+      <br>
+      Marquee much?<br>
+      <input type="radio" name="vote" value="y" checked>Yay!<br>
+      <input type="radio" name="vote" value="n" checked>Nay!<br>
+      <br>
+      Check all that apply:<br>
+      <input type="checkbox" name="skill" value="nunchuk">Nunchuck skills<br>     
+      <input type="checkbox" name="skill" value="bow">Bow hunting skills<br>     
+      <input type="checkbox" name="skill" value="hack">Computer hacking skills<br>     
+      <br>
+      Preferred code editor?<br>
+      <select name="editor">
+	<option>IDLE</option>
+	<option>PyCharm</option>
+	<option>SublimeText</option>
+	<option>vim</option>
+	<option>emacs</option>
+	<option>Notepad</option>
+	<option>TextEdit</option>
+      </select><br>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+
+</html>
