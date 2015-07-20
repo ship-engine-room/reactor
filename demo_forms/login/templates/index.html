@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!-- DEMO front-end for Flask-backed LOGIN page --> 
+
+<html>
+  <head>
+    <title>sample login page</title>
+  </head>
+
+  <body>
+    <h3>User Login</h3>
+    <font color=#FF0000> {{ message }} </font><br><br>
+    <form action="/login" method="POST">
+      name: <input type="text" name="txt_uname"> <br>
+      password: <input type="password" name="pwd_upass"> <br>
+      <input type="submit" value="Login">
+    </form>
+  </body>
+
+</html>
