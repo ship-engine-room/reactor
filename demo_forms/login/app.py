@@ -22,9 +22,9 @@ def login_form():
     if request.method == 'GET':
         return render_template( 'index.html' )
     else:
-        input = request.form
-        u = input['txt_uname']
-        p = input['pwd_upass']
+        form_input = request.form
+        u = form_input['txt_uname']
+        p = form_input['pwd_upass']
 
         if u=='' or p=='':
             s='Please enter a username and password'
