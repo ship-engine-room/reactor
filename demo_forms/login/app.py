@@ -7,8 +7,14 @@ PASSWORD="doo"
 
 app = Flask(__name__)
 
+
 def authenticate( name, passwd ):
     return name==USER and passwd==PASSWORD
+
+
+@app.route( '/' )
+def root():
+    return render_template( 'index.html' )
 
 
 @app.route( '/login', methods = ['POST', 'GET'] )
