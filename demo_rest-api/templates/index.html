@@ -1,0 +1,16 @@
+<h1>Using RESTful services</h1>
+
+<h2>Weather</h2>
+<h3>{{d.city}} : {{d.temp}}</h3> 
+
+<h2>Turtle Gallary</h2>
+
+{% for p in d.photos %}
+<img
+	src="https://farm{{p['farm']}}.staticflickr.com/{{p['server']}}/{{p['id']}}_{{p['secret']}}.jpg">
+
+<b>{{p['title']}}</b>
+<hr>
+
+{% endfor %}
+
