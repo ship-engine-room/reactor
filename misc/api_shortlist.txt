@@ -1,0 +1,43 @@
+====== Shortlist of RESTful APIs for the Engine Room ======
+
+Music:
+TuneFind contains an index of music and songs appearing in popular television shows and movies. Find a song, or see where an artist's music has been featured. The TuneFind API is a RESTful API that allows developers to create applications that access data from TuneFind's database. All data is returned in JSON or XML format. Access to the API is requires permission or licensing.
+http://www.tunefind.com/api
+
+SongMeanings
+SongMeanings is a song lyric and meaning platform that allows users to follow music artists, search for song lyrics, and song meanings. The SongMeanings API by Echonest allows developers to access and integrate the functionality of SongMeanings with other applications. The main API method is retrieving song meanings by song ID numbers.
+http://songmeanings.com/
+http://developer.echonest.com/docs/v4
+http://developer.echonest.com/sandbox/songmeanings.html
+
+
+Sports:
+MLB and NBA stats
+https://erikberg.com/api
+
+Government:
+HuffPo pollster data: 
+http://elections.huffingtonpost.com/pollster/api
+2010 Census data: 
+http://www.census.gov/data/developers/data-sets/decennial-census-data.html
+USPS tracking: 
+https://www.usps.com/business/web-tools-apis/delivery-information.htm
+
+
+Science:
+Cellestial objects: 
+https://star-api.herokuapp.com
+Carbon Emmisions data: 
+http://carma.org/api
+Track the ISS: 
+http://wheretheiss.at/w/developer
+
+Humor:
+xkcd: 
+http://xkcd.com/json.html
+talk like a pirate: 
+http://isithackday.com/arrpi.php
+
+Social:
+https://www.flickr.com/services/api/
+https://developer.foursquare.com/
