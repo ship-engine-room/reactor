@@ -1,0 +1,6 @@
+How To Use Shipyard to Publish Your Web App:
+* Establish a remote terminal session on shipyard.cstuy.org
+* Clone your GitHub repo into your homedir
+* Copy these 2 files into the repo dir: 
+* Run _ to start web server
+* Run _ to terminate web server 
