@@ -1,10 +1,12 @@
-How To Use Shipyard to Publish Your Web App:
+How To Publish Your Web App:
 * Establish a remote terminal session on shipyard.cstuy.org
 * Clone your GitHub repo into your homedir, appending your chosen port number to the local folder name
   $ git clone repoURL local-folder-name
 * Copy these 2 files from /var/www/demos/weather into your repo dir: 
   * start-args
   * stop
-* Run start-args to start web server
+* Run start-args to start web server, providing your chosen port and Flask app name
   $ ./start-args port app app
 * Run stop to terminate web server 
+  $ ./stop 
+
